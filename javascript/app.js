@@ -1,8 +1,6 @@
 var main =  function(){
   "use strict";
 
-  console.log('Hello World!');
-
   $.getJSON('cards/aceOfSpades.json', function (card) {
 
     //cria um elemento para armazenar a carta.
